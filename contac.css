@@ -1,0 +1,104 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(b.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.main ul
+{
+	margin-top: -80px; 
+	float:right;
+	font-family:cursive;
+	list-style:none;
+	margin-top:30x;
+
+}
+.main
+{ 
+	float:center;
+	font-family:carsive;	
+}
+.main li
+{
+	display: inline-block;
+}
+
+.main li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 13px;
+}
+
+.main li.active
+{
+	border: 2px solid white;
+}
+.main li:hover
+{
+	border:1px solid white;
+	background-color:#ff267e;
+}
+.log{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	padding: 80px 40px;
+	height: 420px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.con{
+	margin-top: 100px;
+	color: white;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.con h1{
+	font-size: 28px;
+	line-height: 10px;
+	color: skyblue;
+}
+.con h2{
+	font-size: 16px;
+	color: #ff5722;
+
+	}
+form{
+	margin-top: 50px;
+	transition:all 4s ease-in-out;
+ 
+}
+.form-control{
+	font-size: 18px;
+	width: 600px;
+	background: transparent;
+	border: none;outline: none;
+	border-bottom: 1px solid grey;
+	color: #fff;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+.submit{
+	background-color: #ff5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	font-family: cursive;
+}
+.submit:hover{ 
+	background-color: skyblue;
+	cursor:pointer;
+}

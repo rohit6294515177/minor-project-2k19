@@ -1,0 +1,104 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(aa.jpg);
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+}
+.main
+{ 
+	
+	float:center;
+	font-family:carsive;	
+}
+
+.main ul
+{
+	margin-top: 10px; 
+	float:right;
+	font-family:cursive;
+	list-style:none;
+	margin-top:30x;
+
+}
+
+.main li
+{
+	display: inline-block;
+
+}
+
+.main li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 13px;
+
+}
+
+.main li.active
+{
+	border: 1px solid white;
+}
+.main li:hover
+{
+	border:1px solid white;
+	background-color: orange;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+.cap{
+	float:center;
+	color: skyblue;
+	font-family: cursive;
+	font-size: 25px;
+}
+
+.get{
+	animation: colorchange 1s infinite;
+}
+@keyframes colorchange{
+	0%{color: red}
+	25%{color: #bf55ec}
+	50%{color: white}
+	100%{color: orange}
+	}
+
+	
+	.mar{
+		float: right;
+		height: 20px;
+		width: 20%;
+		background: rgba(0,0,0,.5);
+	}
+	.mar li a{
+		text-decoration:none;
+		color: red;
+		font-size: 14px;
+		font-family:cursive;
+
+	}
+	.mar li:hover{
+		border-bottom:1px solid white;
+		background-color:grey;
+		text-decoration-color:blue;
+	}
+	.uni{
+		font-family: algerian;
+		text-transform: uppercase;
+		color: grey;
+		font-size: 48px;
+		text-shadow: currentColor;
+		margin-top: 20px;
+	}

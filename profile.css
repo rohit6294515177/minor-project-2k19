@@ -1,0 +1,115 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	height:100vh;
+	background: url(back.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+}
+.main ul
+{
+	margin-top: 10px; 
+	float:right;
+	font-family:cursive;
+	list-style:none;
+	margin-top:30x;
+
+}
+.main
+{ 
+	float:center;
+	font-family:carsive;	
+}
+.main li
+{
+	display: inline-block;
+}
+
+.main li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 13px;
+}
+
+.main li.active
+{
+	border: 2px solid white;
+}
+.main li:hover
+{
+	border:1px solid white;
+	background-color:#ff267e;
+}
+.log{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	padding: 80px 40px;
+	height: 420px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+}
+.user{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-100px/2);
+	left: calc(50% - 50px);
+
+}
+h2{
+	margin: opx;
+	padding: 0 0 20px;
+	color: cyan;
+	text-align: center;
+}
+.log p{
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	color: white;
+}
+.log input{
+	width: 100%;
+	margin-bottom:20px;
+}
+.log input[type="Email"],
+.log input[type="password"]{
+	border: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: white;
+	font-size: 14px;
+}
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+.log input[type="submit"]{
+	border: none;
+	outline: none;
+	color:white;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px; 
+}
+.log input[type="submit"]:hover{
+	background: cyan;
+	color: black;
+}
+.log a{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	float: center;
+}
+

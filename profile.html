@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Profile</title>
+	<link rel="stylesheet" href="profile.css">
+</head>
+<body>
+	<div class="main">
+		
+	<ul>
+	<li ><a href="new.html">HOME</a></li>
+	<li><a href="about.html">OUR TEAM</a></li>
+	<li> <a href="contact.html">CONTACT US</a></li>
+	<li class="active" ><a href="profile.html">LOG IN</a></li>
+	</ul>
+</div>
+<div class="log">
+	<img src="ajeet.png" class="user">
+	<h2>Log In Here</h2>
+	<form>
+		<p>Email </p>
+		<input type="Email" name="" placeholder="Enter Email" id="text1">
+		<p>Password </p>
+		<input type="Password" name="" placeholder="Enter Password" id="text2">
+		<input type="submit" name="" value="Sign In" onclick="javascript:validate()">
+		<a href="#">Forget Password?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="#" class="sign">Sign Up</a>
+	</form>
+	<script type="text/javascript">
+function validate()
+{
+	 if( document.getElementById("text1").value == "Rohit singh"
+       && document.getElementById("text2").value == "00175" )
+    {
+        alert( "validation success" )
+        location.href="Rohit Kumar Singh.html";
+    }
+	else if( document.getElementById("text1").value == "Ajeet shaw"
+       && document.getElementById("text2").value == "00166" )
+    {
+       
+        location.href="Ajeet Kumar Sah.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="Error.html";
+    }
+}
+</script>
+</div>
+
+</body>
+</html>
